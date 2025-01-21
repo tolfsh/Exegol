@@ -32,8 +32,8 @@ class ConstantConfig:
     # Dockerhub Exegol images repository
     DOCKER_HUB: str = "hub.docker.com"  # Don't handle docker login operations
     DOCKER_REGISTRY: str = "registry-1.docker.io"  # Don't handle docker login operations
-    IMAGE_NAME: str = "nwodtuhs/exegol"
-    GITHUB_REPO: str = "ThePorgs/Exegol"
+    IMAGE_NAME: str = "tolfsh/exegol"
+    GITHUB_REPO: str = "tolfsh/Exegol"
     # Docker volume names (no docker volume used at this moment)
     # Resources repository
     EXEGOL_RESOURCES_REPO: str = "https://github.com/ThePorgs/Exegol-resources.git"
