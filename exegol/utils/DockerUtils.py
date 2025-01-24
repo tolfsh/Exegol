@@ -612,7 +612,7 @@ class DockerUtils(metaclass=MetaSingleton):
                                                    "BUILD_DATE": datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ')},
                                         platform="linux/" + ParametersManager().arch,
                                         rm=True,
-                                        forcerm=True,
+                                        forcerm=False,
                                         pull=True,
                                         decode=True))
             logger.success(f"Exegol image successfully built")
